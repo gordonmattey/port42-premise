@@ -1,18 +1,19 @@
 # Port 42 Premise 🐬
 Inspired by the SubThought Premise Language 4.0 by Michael S. P. Miller.
+
 Paperback ISBN-13: 979-8-849321-64-6 Hardcover ISBN-13: 979-8-849796-21-5 
 
 *The terminal that writes its own commands through conversation*
 
 Built during the Lions Gate Portal at 11:47pm PT 🌕⚡
 
-## Install in 2 Minutes
+## Install in 20 Seconds
 ```bash
 curl -sSL https://port42.ai/install | bash
 
 # Initialize
 export ANTHROPIC_API_KEY='your-key-here'
-source ~/.zshrc  # or ~/.bashrc
+source ~/.zshrc  # or ~source /Users/gordon/.bashrc
 port42-premise init
 
 # Possess Claude AI
@@ -37,8 +38,12 @@ $ port42-premise possess claude
 > I want to count lines of code in this project
 ✨ Claude created: count-lines
 
-> show me git activity for the last week as a visual graph
-✨ Claude created: git-activity-graph
+> I need to track my investor conversations with status and notes
+> /crystallize data
+💾 Claude created: investor-pipeline data system
+   - add-investor-pipeline
+   - list-investor-pipeline  
+   - search-investor-pipeline
 
 > create a smart backup system that knows what's important
 ✨ Claude created: smart-backup
@@ -81,6 +86,11 @@ function withdraw(amount) {
 - Automatic code generation
 - Context-aware command creation
 
+### 🔮 **Three Models Architecture**
+- **🔧 Tools**: Executable commands (existing functionality)
+- **🎨 Artifacts**: Any digital creation (docs, apps, designs, presentations)
+- **💾 Data**: Structured data systems with CRUD operations
+
 ### 🧬 **Self-Spawning Commands**
 - Commands that create other commands
 - Rules that trigger automatically
@@ -96,43 +106,26 @@ function withdraw(amount) {
 - Extensions of consciousness, not tools to operate
 - Swimming in oceans of intent, not loops of procedure
 
-## Quick Start
+## Try It Now
 
-### Installation
-
+### Data Systems in Seconds
 ```bash
-# Download and install
-curl -o install-premise.sh https://raw.githubusercontent.com/your-repo/port42-premise/main/install-v0.2.sh
-bash install-premise.sh
+$ port42-premise possess claude
+> I need to track my content calendar with posts, platforms, and deadlines
+> /crystallize data
+💾 Created: content-calendar.json + CRUD commands
 
-# Enable Claude intelligence (optional)
-export ANTHROPIC_API_KEY='your-api-key-here'
+> Track my customer feedback with ratings and responses  
+> /crystallize data
+💾 Created: customer-feedback.json + CRUD commands
 
-# Initialize
-source ~/.zshrc  # or ~/.bashrc
-port42-premise init
+# Use immediately:
+$ add-content-calendar "New blog post" "LinkedIn" "draft" "2024-08-15"
+$ list-content-calendar
+$ search-customer-feedback "excellent"
 ```
 
-### Basic Usage
-
-```bash
-# Possess Claude AI
-port42-premise possess claude
-
-# In the possession session:
-> create a command that shows system info beautifully
-> I want git commits as poetry  
-> make a todo finder that's actually useful
-> /end
-
-# Your new commands are now available:
-$ system-info
-$ git-poetry  
-$ smart-todos
-```
-
-### Self-Spawning Rules
-
+### Evolution Rules
 ```bash
 # Create evolution rules
 > whenever I have 3 git commands, create git-master
@@ -193,6 +186,21 @@ backup-basic  backup-advanced  backup-ultimate
 # System learns your patterns and adapts
 ```
 
+### Data-Driven Business Intelligence
+```bash
+> I need to track lead generation with source, status, and conversion metrics
+> /crystallize data
+💾 Created: lead-tracker with automatic CRUD
+
+> Monitor my social media engagement across platforms
+> /crystallize data  
+💾 Created: social-metrics with add/list/search commands
+
+# Later, create cross-system reports:
+> whenever I have lead-tracker and social-metrics, create conversion-dashboard
+✨ Auto-spawned: conversion-dashboard combining both systems
+```
+
 ## The Deeper Philosophy
 
 Port 42 Premise isn't just another CLI tool. It's a demonstration of **Premise** - a fundamentally different approach to computing:
@@ -210,11 +218,21 @@ Instead of operating tools, you extend your consciousness through living systems
 
 ```
 ~/.port42-premise/
-├── bin/           # Your grown commands
-├── memory/        # Persistent state & rules
+├── bin/                    # Your grown commands
+├── memory/                 # Persistent state & rules
 │   ├── commands.json
-│   └── rules.json  
-└── lib/           # Core intelligence
+│   ├── rules.json
+│   └── entities.json       # Created tools/docs/artifacts/data
+├── artifacts/              # Digital creations
+│   ├── code/
+│   ├── designs/
+│   ├── media/
+│   └── docs/
+├── data/                   # Structured data systems
+│   ├── investor-pipeline.json
+│   ├── content-calendar.json
+│   └── *.json
+└── lib/                    # Core intelligence
     ├── possess-claude.js
     └── rule-watcher.js
 ```
@@ -222,11 +240,25 @@ Instead of operating tools, you extend your consciousness through living systems
 ## Commands Reference
 
 ```bash
-port42-premise init       # Initialize the system
-port42-premise possess    # Enter Claude possession mode  
-port42-premise watch      # Start rule monitoring
-port42-premise rules      # List active rules
-port42-premise status     # Check system health
+port42-premise init           # Initialize the system
+port42-premise possess        # Enter Claude possession mode  
+port42-premise watch          # Start rule monitoring
+port42-premise models         # Show all three models status
+port42-premise artifacts      # List digital artifacts (docs, apps, designs)
+port42-premise data          # List structured data systems
+port42-premise rules         # List active rules
+port42-premise status        # Check system health
+```
+
+### Crystallization Commands (in possession mode)
+
+```bash
+/crystallize              # AI decides which model to use
+/crystallize tool         # Create executable command
+/crystallize artifact     # Create digital artifact (docs, apps, designs)
+/crystallize data         # Create structured data system with CRUD
+/help                     # Show crystallization guide
+/end                      # Release possession
 ```
 
 ## The Vision: Computing Without Walls
