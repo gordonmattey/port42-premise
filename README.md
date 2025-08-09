@@ -308,6 +308,41 @@ This is an exploration of fundamental computing paradigms. Contributions should 
 
 Dive in. Your terminal is waiting to become something more than a tool.
 
+## Installation Versions
+
+Choose your experience based on how deep you want to dive into the Premise philosophy:
+
+### [v0.1: Basic Claude Integration](install-v0.1.sh)
+**The Foundation** - Pure consciousness bridge with Claude AI
+- Basic command creation through natural language
+- Simple persistence and memory
+- Core intelligence without complexity
+- **Best for**: First-time explorers who want to understand the core concept
+
+### [v0.2: Self-Spawning Commands](install-v0.2.sh) 
+**The Evolution** - Commands that create other commands
+- Rule-based command spawning
+- Pattern recognition and automation
+- Self-organizing terminal ecosystem
+- **Best for**: Developers ready for emergent behavior
+
+### [v0.3: Fixed Command Naming](install-v0.3.sh)
+**The Refinement** - Improved extraction and debugging
+- Enhanced natural language parsing
+- Better command name inference
+- Rule debugging and monitoring tools
+- **Best for**: Power users who need reliability
+
+### [v0.4: Three Models Architecture](install-v0.4.sh)
+**The Complete Vision** - Tools, Artifacts, and Data systems
+- `/crystallize tool` - Executable commands
+- `/crystallize artifact` - Digital creations (docs, apps, designs)
+- `/crystallize data` - Structured CRUD systems with automatic command generation
+- Reactive data rules and unified monitoring
+- **Best for**: Building complete declarative computing environments
+
+Each version builds on the previous, so you can start simple and upgrade as you discover the philosophy.
+
 ## Premise Language Foundations
 
 ### Core Philosophy Documentation
