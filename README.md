@@ -1,11 +1,16 @@
 # Port 42 Premise 🐬
-Inspired by the SubThought Premise Language 4.0 by Michael S. P. Miller.
 
-Paperback ISBN-13: 979-8-849321-64-6 Hardcover ISBN-13: 979-8-849796-21-5 
+## Acknowledgements
+Inspired by the SubThought Premise Language 3.0 by Michael S. P. Miller.
 
-This is a spritual prototype of an local first AI experience based on the Premise principles.
+Premise is a Stigmergic Agent Language: https://github.com/subthought/premise
+
+Subject to Copyright © 2014-2025 SubThought Corporation; All Rights Reserved.
+
+Subthought License Terms: https://github.com/SubThought/Premise/blob/main/SubThought_Premise_License_300.md
 
 *The terminal that writes its own commands through conversation*
+This is a spritual prototype of a local first AI in your laptop exprience based on the principles of Premise.
 
 Built during the Lions Gate Portal at 11:47pm PT 🌕⚡
 
@@ -303,6 +308,29 @@ This is an exploration of fundamental computing paradigms. Contributions should 
 
 Dive in. Your terminal is waiting to become something more than a tool.
 
+## Premise Language Foundations
+
+### Core Philosophy Documentation
+- [Premise as the Language for Personal Computing](docs/subthough%20premuse/Premise%20as%20the%20Language%20for%20Personal%20Computing.md) - Blog-style introduction to declarative computing
+- [The Current Web is Procedural](docs/subthough%20premuse/The%20Current%20Web%20is%20Procedural.md) - Why the web feels broken and how to fix it
+- [Premise Getting Started](docs/subthough%20premuse/premise-getting-started.md) - Introduction to Premise language fundamentals
+- [Premise OS Integration](docs/subthough%20premuse/premise-os-integration.md) - System administration using Premise principles
+
+### Port 42 Implementation Studies
+- [How Port 42 Manifests Premise Philosophy](docs/port42/How%20Port%2042%20Manifests%20Premise%20Philosophy.md) - Technical analysis of Premise principles in Port 42
+- [Killer Apps](docs/port42/killerapps.md) - Revolutionary applications enabled by Premise computing
+- [Port 42 Premise Test Suite](docs/port42/port42-premis--test-suite.md) - Testing framework and validation approaches
+
+## Futures
+
+### Architecture Planning
+- [Three Models Architecture](docs/planning/three-models-architecture.md) - Tools, Artifacts, and Data system design
+- [Rust Architecture](docs/planning/rust-architecture.md) - Future Rust implementation with TUI interface
+- [Living Commands in AI Communion](docs/planning/living-commands-premise.md) - Command relations within AI reality
+- [Data Rules & Reactive Systems](docs/planning/data-rules-premise.md) - Premise philosophy for data-driven automation
+
+### Development Notes
+- [Bugs and Issues](docs/planning/bugs.md) - Known issues and development blockers
 ---
 
 *Ready to stop programming computers and start declaring reality?*
