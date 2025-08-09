@@ -3,7 +3,7 @@ Inspired by the SubThought Premise Language 4.0 by Michael S. P. Miller.
 
 Paperback ISBN-13: 979-8-849321-64-6 Hardcover ISBN-13: 979-8-849796-21-5 
 
-This is a spritual prototype of an engine based on the Premise principles.
+This is a spritual prototype of an local first AI experience based on the Premise principles.
 
 *The terminal that writes its own commands through conversation*
 
