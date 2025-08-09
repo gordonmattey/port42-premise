@@ -352,9 +352,11 @@ Each version builds on the previous, so you can start simple and upgrade as you 
 - [Premise OS Integration](docs/subthough%20premuse/premise-os-integration.md) - System administration using Premise principles
 
 ### Port 42 Implementation Studies
-- [How Port 42 Manifests Premise Philosophy](docs/port42/How%20Port%2042%20Manifests%20Premise%20Philosophy.md) - Technical analysis of Premise principles in Port 42
+- [How Port 42 Premise Manifests Premise Philosophy](docs/port42/How%20Port%2042%20Manifests%20Premise%20Philosophy.md) - Technical analysis of Premise principles in Port 42
 - [Killer Apps](docs/port42/killerapps.md) - Revolutionary applications enabled by Premise computing
 - [Port 42 Premise Test Suite](docs/port42/port42-premis--test-suite.md) - Testing framework and validation approaches
+- [Premise Principles for Port 42 Roadmap](docs/port42/premise-principles-for-port42.md) - **WHY**: Philosophical foundation explaining why Premise transforms Port 42 from tool to reality compiler
+- [Implementing Premise in Port 42 Integraiton Plan](docs/port42/implementing-premise-in-port42.md) - **HOW**: Detailed technical implementation guide for the four missing pieces
 
 ## Futures
 
