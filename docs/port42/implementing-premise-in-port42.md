@@ -885,37 +885,37 @@ Once all four pieces work together:
 
 ## Implementation Roadmap
 
-### Week 1: Basic Reality Compiler
+### Step 1: Basic Reality Compiler
 - [ ] Add Relation type to server
 - [ ] Implement ToolMaterializer 
 - [ ] Add DeclareRelation endpoint
 - [ ] Test: `port42 declare tool simple-test`
 
-### Week 2: Virtual Views Foundation
+### Step 2: Virtual Views Foundation
 - [ ] Add VirtualPath resolver system
 - [ ] Implement `/commands/*` view
 - [ ] Add CLI: `port42 ls /commands`
 - [ ] Test: Multiple views of same tool
 
-### Week 3: First Rules
+### Step 3: First Rules
 - [ ] Add Rules Engine infrastructure
 - [ ] Implement "spawn viewer" rule
 - [ ] Test: Tool creation automatically spawns viewer
 - [ ] Watch the magic happen! 🎉
 
-### Week 4: Relationship Storage
+### Step 4: Relationship Storage
 - [ ] Add Relationship types and storage
 - [ ] Implement automatic relationship creation
 - [ ] Add CLI: `port42 relationships <entity>`
 - [ ] Test: Explore entity connections
 
-### Week 5: Integration & Polish
+### Step 5: Integration & Polish
 - [ ] Connect all pieces together
 - [ ] Add more rules and virtual views
 - [ ] Implement relationship graph visualization
 - [ ] Test: Complete emergent ecosystem
 
-### Week 6: Advanced Features
+### Step 6: Advanced Features
 - [ ] Semantic similarity search
 - [ ] Rule management CLI
 - [ ] Advanced virtual views
